@@ -13,34 +13,34 @@ import {
 
 const routes = [
   {
-    name: "Admin",
-    layout: "/admin",
-    path: "default",
+    name: "Dashboard",
+    layout: "admin",
+    path: "",
     icon: <MdHome className="h-6 w-6" />,
   },
   {
-    name: "NFT Marketplace",
-    layout: "/admin",
-    path: "nft-marketplace",
+    name: "Account Management",
+    layout: "admin",
+    path: "",
     icon: <MdOutlineShoppingCart className="h-6 w-6" />,
 
     secondary: true,
   },
   {
-    name: "Data Tables",
-    layout: "/admin",
+    name: "Device Management",
+    layout: "admin",
+    path: "",
     icon: <MdBarChart className="h-6 w-6" />,
-    path: "data-tables",
   },
   {
-    name: "Profile",
-    layout: "/admin",
-    path: "profile",
+    name: "Support Tickets",
+    layout: "admin",
+    path: "",
     icon: <MdPerson className="h-6 w-6" />,
   },
   {
     name: "Sign In",
-    layout: "/auth",
+    layout: "auth",
     path: "sign-in",
     icon: <MdLock className="h-6 w-6" />,
   },

@@ -6,6 +6,7 @@ import "@/styles/Contact.css";
 // import 'styles/Plugins.css';
 import "@/styles/MiniCalendar.css";
 import "@/styles/index.css";
+import "react-phone-input-2/lib/style.css";
 import { Providers } from "./providers";
 
 const inter = Inter({ subsets: ["latin"] });
