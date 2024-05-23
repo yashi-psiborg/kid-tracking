@@ -16,7 +16,7 @@ function SignInDefault() {
               Sign In
             </h3>
             <p className="mb-9 ml-1 text-base text-gray-600">
-              Enter your phoneNumber and password to sign in!
+              Enter your email and password to sign in!
             </p>
             {/* <div className="mb-6 flex h-[50px] w-full items-center justify-center gap-2 rounded-xl bg-lightPrimary hover:cursor-pointer dark:bg-navy-800 dark:text-white">
               <div className="rounded-full text-xl">

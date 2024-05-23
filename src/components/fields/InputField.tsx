@@ -8,7 +8,6 @@ function InputField(props: {
   state?: string;
   disabled?: boolean;
   type?: string;
-  value?: string;
   onChange?: any;
 }) {
   const {

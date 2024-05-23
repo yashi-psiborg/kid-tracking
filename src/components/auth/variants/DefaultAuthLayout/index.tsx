@@ -14,9 +14,7 @@ function Default(props: { maincard: JSX.Element }) {
             >
               <div className="relative flex h-full w-full items-center">
                 <div
-                  style={{
-                    backgroundImage: `url(${authImg.src})`,
-                  }}
+                  style={{ backgroundImage: `url(${authImg.src})` }}
                   className="flex h-[95%] w-full bg-cover rounded-3xl mr-7"
                 />
               </div>
