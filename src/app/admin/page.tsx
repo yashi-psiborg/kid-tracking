@@ -1,11 +1,12 @@
+"use client";
 import React from "react";
+// useRouter
+import { useRouter } from "next/navigation";
 
-const Dashboard = () => {
-  return (
-    <div>
-      <p>Dashboard</p>
-    </div>
-  );
+const AdminPage = () => {
+  const router = useRouter();
+
+  router.push("/admin/dashboard");
 };
 
-export default Dashboard;
+export default AdminPage;

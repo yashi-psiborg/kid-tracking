@@ -127,7 +127,7 @@ const Navbar = (props: {
           </div>
         </Dropdown>
 
-        <div
+        {/* <div
           className="cursor-pointer text-gray-600"
           onClick={() => {
             setTheme(theme === "dark" ? "light" : "dark");
@@ -138,7 +138,7 @@ const Navbar = (props: {
           ) : (
             <RiMoonFill className="h-4 w-4 text-gray-600 dark:text-white" />
           )}
-        </div>
+        </div> */}
         {/* Profile & Dropdown */}
         <Dropdown
           button={

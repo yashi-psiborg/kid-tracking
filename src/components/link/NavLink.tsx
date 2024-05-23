@@ -1,16 +1,16 @@
-'use client';
-import NextLink, { LinkProps as NextLinkProps } from 'next/link';
+"use client";
+import NextLink, { LinkProps as NextLinkProps } from "next/link";
 import {
   CSSProperties,
   ComponentProps,
   PropsWithChildren,
   useMemo,
-} from 'react';
+} from "react";
 
 export type NavLinkProps = NextLinkProps &
   PropsWithChildren & {
     styles?: CSSProperties;
-    borderRadius?: ComponentProps<typeof NextLink>['style']['borderRadius'];
+    borderRadius?: ComponentProps<typeof NextLink>["style"]["borderRadius"];
   };
 
 function NavLink({ className, children, styles, borderRadius, ...props }: any) {
@@ -19,7 +19,7 @@ function NavLink({ className, children, styles, borderRadius, ...props }: any) {
       borderRadius: borderRadius || 0,
       ...styles,
     }),
-    [borderRadius, styles],
+    [borderRadius, styles]
   );
 
   return (
