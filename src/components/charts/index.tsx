@@ -50,8 +50,8 @@ interface CustomGraphProps {
 const CustomGraph: React.FC<CustomGraphProps> = ({ viewCount }) => {
   const colors = {
     steps: {
-      stroke: "#28844B",
-      fill: "#28844B",
+      stroke: "#00028C",
+      fill: "#00028C",
     },
     text: "#697077",
     background: "#fff",

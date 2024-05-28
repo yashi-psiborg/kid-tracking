@@ -9,7 +9,10 @@ import {
   MdBarChart,
   MdPerson,
   MdLock,
+  MdSubject,
 } from "react-icons/md";
+import { BiSupport } from "react-icons/bi";
+import { HiDeviceTablet } from "react-icons/hi2";
 
 const routes = [
   {
@@ -22,20 +25,27 @@ const routes = [
     name: "Account Management",
     layout: "admin",
     path: "account-management",
-    icon: <MdOutlineShoppingCart className="h-6 w-6" />,
+    icon: <MdBarChart className="h-6 w-6" />,
     secondary: true,
   },
   {
     name: "Device Management",
     layout: "admin",
     path: "device-management",
-    icon: <MdBarChart className="h-6 w-6" />,
+    icon: <HiDeviceTablet className="h-6 w-6" />,
   },
+
   {
     name: "Support Tickets",
     layout: "admin",
     path: "support-tickets",
-    icon: <MdPerson className="h-6 w-6" />,
+    icon: <BiSupport className="h-6 w-6" />,
+  },
+  {
+    name: "Subscriptions",
+    layout: "admin",
+    path: "subscriptions",
+    icon: <MdSubject className="h-6 w-6" />,
   },
   {
     name: "Sign In",
